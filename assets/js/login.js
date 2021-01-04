@@ -46,7 +46,6 @@ $(function() {
 
     // 监听登录表单的提交事件
     $('#form_login').on('submit', function(e) {
-        console.log(123);
         // 阻止表单默认行为
         e.preventDefault();
         $.ajax({
